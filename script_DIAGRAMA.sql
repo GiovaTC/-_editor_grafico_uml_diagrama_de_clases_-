@@ -44,3 +44,10 @@ END;
 /
 
 COMMIT;
+
+-- diagrama .
+INSERT INTO DIAGRAMA (NOMBRE) VALUES ('Diagrama Principal');
+
+COMMIT;
+
+SELECT * FROM DIAGRAMA;
