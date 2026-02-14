@@ -56,3 +56,38 @@ SELECT * FROM DIAGRAMA;
 INSERT INTO ATRIBUTO_UML (ID_CLASE, NOMBRE, TIPO) VALUES (1, 'email', 'String');
 
 COMMIT;
+
+INSERT INTO METODO_UML (ID_CLASE, NOMBRE, RETORNO) VALUES (1, 'login', 'boolean');
+
+COMMIT;
+
+/* resultado visual esperado .
++------------------+
+|     Usuario      |
++------------------+
+| - idUsuario:int  |
+| - nombre:String  |
+| - email:String   |
++------------------+
+| + login():bool   |
+| + logout():void  |
++------------------+
+
+         |
+         | asociación
+         |
++------------------+
+|       Rol        |
++------------------+
+| - idRol:int      |
+| - nombre:String  |
++------------------+
+| + asignarPerm()  |
++------------------+
+*/
+
+-- Consultas de prueba
+SELECT * FROM DIAGRAMA;
+SELECT * FROM CLASE_UML;
+SELECT * FROM ATRIBUTO_UML;
+SELECT * FROM METODO_UML;
