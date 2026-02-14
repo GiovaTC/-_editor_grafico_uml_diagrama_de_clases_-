@@ -3,6 +3,8 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/849981f8-8439-440f-b07a-4aa81f1a5dde" />  
 
+<img width="2553" height="1079" alt="image" src="https://github.com/user-attachments/assets/fc96bbe3-0cf5-4ac7-a59a-c690ed673b63" />    
+
 Java SE · Swing · Oracle 19c · MVC / DAO 
 
 | Diagrama General | Icono UML | Icono Clase |
