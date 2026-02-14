@@ -24,4 +24,4 @@ public class ClaseUML {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-}   
+}
